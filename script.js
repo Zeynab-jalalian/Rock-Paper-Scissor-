@@ -25,7 +25,22 @@ options.forEach((img, index) => {
     let randomIndex=Math.floor(Math.random() * 3);
     let cpuArr=["img/rock.png","img/paper.png","img/scissors.png"];
     cpu.src=cpuArr[randomIndex];
+    
+    let outcomes={
+        PP:'Draw',
+        SS:'Draw',
+        RR:'Draw',
 
+        PS:'cpu',
+        PR:'user',
+
+        SP:'user',
+        SR:'cpu',
+
+        RS:'user',
+        RP:'cpu'
+
+    }
    }, 2000);
 
 
