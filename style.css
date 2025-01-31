@@ -54,3 +54,33 @@ body{
 .option:hover{
     opacity: 1;
 }
+.option.active{
+    opacity: 1;
+}
+.container.start .option{
+    pointer-events: none;
+}
+.container.start .user{
+    transform-origin: left;
+ animation: user 0.7s ease infinite;
+}
+.container.start .cpu{
+    transform-origin: right;
+    animation: cpu 0.7s ease infinite;
+}
+.user img{
+    transform: rotate(90deg);
+}
+.cpu img{
+    transform: rotate(-90deg) rotateY(180deg);
+}
+@keyframes user{
+    50%{
+        transform: rotate(10deg);
+    }
+}
+@keyframes cpu{
+    50%{
+        transform: rotate(-10deg);
+    }
+}
