@@ -48,7 +48,7 @@ options.forEach((img, index) => {
     let outcomesValue=outcomes[userValue + cpuValue];
     
     if(userValue===cpuValue){
-        resultText.innerHTML="Match Draw";
+        resultText.innerHTML="No Winner!";
     }else{
         resultText.innerHTML=`${outcomesValue} won!!`;
     }
