@@ -16,6 +16,13 @@ options.forEach((img, index) => {
    user.src=cpu.src="img/rock.png";
    game.classList.add('start');
     
+   setTimeout(() => {
+    game.classList.remove('start');
+ 
+    user.src=e.target.querySelector('img').src;
+
+   }, 2000);
+
 
     })
 
