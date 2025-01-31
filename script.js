@@ -21,6 +21,10 @@ options.forEach((img, index) => {
  
     user.src=e.target.querySelector('img').src;
 
+    let randomIndex=Math.floor(Math.random() * 3);
+    let cpuArr=["img/rock.png","img/paper.png","img/scissors.png"];
+    cpu.src=cpuArr[randomIndex];
+
    }, 2000);
 
 
