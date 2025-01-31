@@ -15,6 +15,7 @@ options.forEach((img, index) => {
     
    user.src=cpu.src="img/rock.png";
    game.classList.add('start');
+   resultText.innerHTML="Wait...";
     
    setTimeout(() => {
     game.classList.remove('start');
