@@ -31,14 +31,14 @@ options.forEach((img, index) => {
         SS:'Draw',
         RR:'Draw',
 
-        PS:'Villain',
-        PR:'Hero',
+        PS:'VILLAIN',
+        PR:'YOU',
 
-        SP:'Hero',
-        SR:'Villain',
+        SP:'YOU',
+        SR:'VILLAIN',
 
-        RS:'Hero',
-        RP:'Villain'
+        RS:'YOU',
+        RP:'VILLAIN'
 
     }
 
