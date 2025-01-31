@@ -41,6 +41,13 @@ options.forEach((img, index) => {
         RP:'cpu'
 
     }
+
+    let userValue=["R","P","S"][index];
+    let cpuValue=["R","P","S"][randomIndex];
+
+    let outcomesValue=outcomes[userValue + cpuValue];
+    
+    
    }, 2000);
 
 
