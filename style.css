@@ -54,7 +54,12 @@ body::before {
     border: 2px solid #00ff41;
     box-shadow: inset 0px 0px 10px rgba(0, 255, 65, 0.15);
 }
-
+.user img{
+    transform:rotate(90deg);
+}
+.cpu img{
+ transform:rotate(-90deg) rotateY(180deg);
+}
 .resultImages {
     display: flex;
     justify-content: center;
